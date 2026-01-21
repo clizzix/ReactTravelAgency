@@ -3,7 +3,7 @@ export const locations = [
         id: 1,
         slug: 'Berlin',
         country: 'Germany',
-        title: 'Where History Meets the Cutting Edge',
+        title: 'History Meets Subculture',
         src: 'https://images.pexels.com/photos/28376557/pexels-photo-28376557.jpeg',
         alt: 'Picture by Mohammed Shaheen',
         description:
@@ -13,7 +13,7 @@ export const locations = [
         id: 2,
         slug: 'London',
         country: 'United Kingdom',
-        title: 'Where Tradition Meets Tomorrow',
+        title: 'Tradition Meets Tomorrow',
         src: 'https://images.pexels.com/photos/1634278/pexels-photo-1634278.jpeg',
         alt: 'Picture by Jimmy Teoh',
         description:
@@ -24,7 +24,7 @@ export const locations = [
         slug: 'Prague',
         country: 'Czech Republic',
         title: 'The City of a Hundred Spires',
-        src: 'https://images.pexels.com/photos/753337/pexels-photo-753337.jpeg',
+        src: 'https://images.pexels.com/photos/10916433/pexels-photo-10916433.jpeg',
         alt: 'Picture by Julius Silver',
         description:
             'Prague is a living fairytale carved into stone. Known for its stunningly preserved Gothic, Renaissance, and Baroque architecture, the Czech capital is a maze of winding cobblestone alleys and grand squares that have remained largely untouched for centuries. Bisected by the Vltava River, Prague offers a romantic, moody atmosphere that feels like stepping back into the Middle Ages.',

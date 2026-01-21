@@ -5,6 +5,7 @@ import About from './pages/About';
 import Destinations from './pages/Destinations';
 import Contact from './pages/Contact';
 import MainLayout from './layouts/MainLayout';
+import LocationDetail from './pages/LocationDetail';
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
                     <Route path="/about" element={<About />} />
                     <Route path="/destinations" element={<Outlet />}>
                         <Route index element={<Destinations />} />
+                        <Route path=":slug" element={<LocationDetail />} />
                     </Route>
                     <Route path="/contact" element={<Contact />} />
                 </Route>

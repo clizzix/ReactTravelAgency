@@ -8,7 +8,7 @@ const Destinations = () => {
             <h2 className="text-center text-primary text-4xl font-semibold m-8">
                 Destinations
             </h2>
-            <ul className="space-x-2 flex">
+            <ul className="flex gap-8">
                 {locations.map((location) => (
                     <LocationCard key={location.id} props={location} />
                 ))}
