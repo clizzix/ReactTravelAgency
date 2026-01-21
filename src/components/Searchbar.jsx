@@ -12,8 +12,8 @@ const Searchbar = () => {
         <div className="flex flex-nowrap">
             <input type="text" placeholder="Origin" className="input" />
             <input type="text" placeholder="Destination" className="input" />
-            <input type="date" placeholder="Origin" className="input" />
-            <input type="date" placeholder="Origin" className="input" />
+            <input type="date" className="input" />
+            <input type="date" className="input" />
             <button
                 className="btn btn-outline btn-primary"
                 onClick={handleSearch}
