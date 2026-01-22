@@ -25,9 +25,9 @@ const About = () => {
 
             <div className="flex flex-col justify-center items-center mt-8 gap-4">
                 <img
-                    src="https://images.pexels.com/photos/20101853/pexels-photo-20101853.jpeg"
-                    alt="Picture by Masood Aslami"
-                    className="h-70 w-auto rounded-md"
+                    src="https://images.pexels.com/photos/33442482/pexels-photo-33442482.jpeg"
+                    alt="Picture by Haberdoedas Photography"
+                    className="h-100 w-auto rounded-md"
                 />
                 <div className="flex gap-4 mt-4">
                     <div className="card bg-gray-700 w-96 shadow-sm">
