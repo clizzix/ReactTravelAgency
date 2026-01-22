@@ -1,6 +1,7 @@
 import React from 'react';
 import Searchbar from '../components/Searchbar';
 import LocationCard from '../components/LocationCard';
+import Hero from '../components/Hero';
 import { locations } from '../components/Locations';
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
                 Discover Europes most beautiful Locations
             </h1>
             <Searchbar />
+            <Hero />
             <h2 className="text-center m-8 text-accent font-semibold text-3xl">
                 Popular Destinations
             </h2>
